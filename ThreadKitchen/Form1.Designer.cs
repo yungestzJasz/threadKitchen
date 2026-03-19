@@ -80,9 +80,9 @@
             this.groupBox1.Controls.Add(this.progressBar1);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Location = new System.Drawing.Point(10, 39);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(565, 190);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -171,7 +171,7 @@
             // progressBar5
             // 
             this.progressBar5.Location = new System.Drawing.Point(190, 77);
-            this.progressBar5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar5.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(334, 19);
             this.progressBar5.TabIndex = 4;
@@ -179,7 +179,7 @@
             // progressBar4
             // 
             this.progressBar4.Location = new System.Drawing.Point(190, 118);
-            this.progressBar4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar4.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(334, 19);
             this.progressBar4.TabIndex = 3;
@@ -187,7 +187,7 @@
             // progressBar3
             // 
             this.progressBar3.Location = new System.Drawing.Point(190, 154);
-            this.progressBar3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar3.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar3.Name = "progressBar3";
             this.progressBar3.Size = new System.Drawing.Size(334, 19);
             this.progressBar3.TabIndex = 2;
@@ -195,7 +195,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(190, 39);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(334, 19);
             this.progressBar1.TabIndex = 0;
@@ -206,9 +206,9 @@
             this.groupBox2.Controls.Add(this.richTextBox1);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox2.Location = new System.Drawing.Point(10, 243);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(565, 198);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -219,7 +219,7 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.InfoText;
             this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox1.Location = new System.Drawing.Point(4, 17);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(557, 168);
             this.richTextBox1.TabIndex = 5;
@@ -230,7 +230,7 @@
             this.button1.BackColor = System.Drawing.Color.Green;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(9, 456);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 33);
             this.button1.TabIndex = 3;
@@ -242,7 +242,7 @@
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(170, 456);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 33);
             this.button2.TabIndex = 4;
@@ -260,7 +260,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.title);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
