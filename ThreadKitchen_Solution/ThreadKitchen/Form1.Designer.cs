@@ -30,6 +30,7 @@
         {
             this.lblTitolo = new System.Windows.Forms.Label();
             this.panelBtn = new System.Windows.Forms.Panel();
+            this.lblExpected = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.panelData = new System.Windows.Forms.Panel();
@@ -48,6 +49,7 @@
             this.lblPrecChef0 = new System.Windows.Forms.Label();
             this.pbChef0 = new System.Windows.Forms.ProgressBar();
             this.lblChef0 = new System.Windows.Forms.Label();
+            this.lblWinner = new System.Windows.Forms.Label();
             this.panelBtn.SuspendLayout();
             this.panelData.SuspendLayout();
             this.grpLog.SuspendLayout();
@@ -69,6 +71,8 @@
             // 
             // panelBtn
             // 
+            this.panelBtn.Controls.Add(this.lblWinner);
+            this.panelBtn.Controls.Add(this.lblExpected);
             this.panelBtn.Controls.Add(this.btnReset);
             this.panelBtn.Controls.Add(this.btnStart);
             this.panelBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -77,6 +81,17 @@
             this.panelBtn.Name = "panelBtn";
             this.panelBtn.Size = new System.Drawing.Size(715, 61);
             this.panelBtn.TabIndex = 3;
+            // 
+            // lblExpected
+            // 
+            this.lblExpected.AutoSize = true;
+            this.lblExpected.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpected.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblExpected.Location = new System.Drawing.Point(290, 23);
+            this.lblExpected.Name = "lblExpected";
+            this.lblExpected.Size = new System.Drawing.Size(142, 18);
+            this.lblExpected.TabIndex = 2;
+            this.lblExpected.Text = "Atteso: 0 Reale: 0";
             // 
             // btnReset
             // 
@@ -275,6 +290,16 @@
             this.lblChef0.TabIndex = 0;
             this.lblChef0.Text = "label1";
             // 
+            // lblWinner
+            // 
+            this.lblWinner.AutoSize = true;
+            this.lblWinner.ForeColor = System.Drawing.SystemColors.Info;
+            this.lblWinner.Location = new System.Drawing.Point(478, 27);
+            this.lblWinner.Name = "lblWinner";
+            this.lblWinner.Size = new System.Drawing.Size(38, 13);
+            this.lblWinner.TabIndex = 3;
+            this.lblWinner.Text = "winner";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -290,6 +315,7 @@
             this.Text = "🍳 ThreadKitchen";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelBtn.ResumeLayout(false);
+            this.panelBtn.PerformLayout();
             this.panelData.ResumeLayout(false);
             this.grpLog.ResumeLayout(false);
             this.grpChefs.ResumeLayout(false);
@@ -320,6 +346,9 @@
         private System.Windows.Forms.Label lblPrecChef1;
         private System.Windows.Forms.ProgressBar pbChef1;
         private System.Windows.Forms.Label lblChef1;
+        private System.Windows.Forms.Label lblExpected;
+        private System.Windows.Forms.Label lblWinner;
     }
 }
+
 
