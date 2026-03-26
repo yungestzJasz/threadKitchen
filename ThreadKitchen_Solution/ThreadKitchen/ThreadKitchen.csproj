@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13341C84-0927-41D4-9BFF-C2AFAD083953}</ProjectGuid>
+    <ProjectGuid>{AE681E39-9D0C-4725-8256-9A5CC11527B4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ThreadKitchen</RootNamespace>
     <AssemblyName>ThreadKitchen</AssemblyName>
